@@ -8,7 +8,7 @@
         "price": 99.99,
         "instructor": "John Doe",
         "isFeatured": true,
-        "image": "/courses/guitar.jpg"
+        "image": "https://media.istockphoto.com/id/1397335313/photo/classical-guitar.jpg?s=612x612&w=0&k=20&c=jBxNuGJ2iEEMgOmsXm1fs0SGpTZAg513ITvU38OWXAw="
       },
       {
         "id": 2,
@@ -18,7 +18,7 @@
         "price": 109.99,
         "instructor": "Jane Smith",
         "isFeatured": false,
-        "image": "/courses/piano.jpg"
+        "image": "https://media.istockphoto.com/id/1709726975/photo/pianist-playing-a-piece-on-a-grand-piano-at-a-concert-seen-from-the-side.jpg?s=612x612&w=0&k=20&c=Gc76H7z4erOTBVqpg8rcHONlCWw1cZWUmL0ydx40EgU="
       },
       {
         "id": 3,
@@ -28,7 +28,7 @@
         "price": 119.99,
         "instructor": "Emily Johnson",
         "isFeatured": true,
-        "image": "/courses/vocalist.jpg"
+        "image": "https://media.istockphoto.com/id/880921070/photo/microphone-on-the-background-of-the-drum-set-close-up.jpg?s=612x612&w=0&k=20&c=eLVVssI89I2isZhlbS-XsdsxDgOx98Ejnm_p2ZMh_W8="
       },
       {
         "id": 4,
@@ -38,7 +38,7 @@
         "price": 129.99,
         "instructor": "Mike Brown",
         "isFeatured": false,
-        "image": "/courses/drumming.jpg"
+        "image": "https://media.istockphoto.com/id/860414400/photo/drummer-playing-his-drum-kit-on-concert-in-club.jpg?s=612x612&w=0&k=20&c=kL93uH5yELK44Yr9clvJlVV_ls2p1HgDrOTQErzUzrw="
       },
       {
         "id": 5,
@@ -48,7 +48,7 @@
         "price": 139.99,
         "instructor": "Chris Davis",
         "isFeatured": false,
-        "image": "/courses/jazz.jpg"
+        "image": "https://media.istockphoto.com/id/465732100/photo/african-jazz-musician-playing-the-saxophone.jpg?s=612x612&w=0&k=20&c=hCw5oibcUVJYSHqAWJQnD3AHpPATEdCZoA4TS8qqkng="
       },
       {
         "id": 6,
@@ -58,7 +58,7 @@
         "price": 149.99,
         "instructor": "Alex Wilson",
         "isFeatured": true,
-        "image": "/courses/music-prod.jpg"
+        "image": "https://media.istockphoto.com/id/622064544/photo/music-mixer.jpg?s=1024x1024&w=is&k=20&c=-nmifaj1iowEwMMqV13OO3BaeJzFwFuBSFqS5qTMiyE="
       },
       {
         "id": 7,
@@ -68,7 +68,7 @@
         "price": 159.99,
         "instructor": "Samantha Miller",
         "isFeatured": false,
-        "image": "/courses/song-writing.jpg"
+        "image": "https://media.istockphoto.com/id/1479529445/photo/man-singing-playing-guitar-and-writing-songs-at-the-recording-studio.jpg?s=612x612&w=0&k=20&c=7uZBXz2lH0pcA2BvVGwFJSSAEiofW5aVvY_phq2USj8="
       },
       {
         "id": 8,
@@ -78,7 +78,7 @@
         "price": 169.99,
         "instructor": "Luke Harris",
         "isFeatured": true,
-        "image": "/courses/music-prod.jpg"
+        "image": "https://media.istockphoto.com/id/817670102/photo/music-producer-is-recording-sound-on-computer.jpg?s=612x612&w=0&k=20&c=-bLdjG2JyMnB9kxgUM455UmK79UE-1h9-35JJ0bg65w="
       },
       {
         "id": 9,
@@ -88,7 +88,7 @@
         "price": 179.99,
         "instructor": "Grace Lee",
         "isFeatured": false,
-        "image": "/courses/classical-music.jpg"
+        "image": "https://media.istockphoto.com/id/1299364271/photo/hands-of-a-conductor-of-a-symphony-orchestra-close-up.jpg?s=612x612&w=0&k=20&c=1LP3RO8C58fs3SYUvaZXhnYw5IRJZJJABUC_Q_Hq_9E="
       },
       {
         "id": 10,
@@ -98,7 +98,7 @@
         "price": 189.99,
         "instructor": "Ethan Moore",
         "isFeatured": true,
-        "image": "/courses/blues.jpg"
+        "image": "https://media.istockphoto.com/id/155425952/photo/guitarist-playing-slide-guitar.jpg?s=612x612&w=0&k=20&c=qq266yFyNzXgULacqrEDrpa7jVKdhHLkVONkLPo7SxA="
       }
     ]
   }
