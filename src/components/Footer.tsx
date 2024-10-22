@@ -7,10 +7,7 @@ function Footer() {
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
           <p className="mb-4">
-            Music Academy is a premier institution dedicated to teaching the art
-            and science of music. We nurture talent from the ground up,
-            fostering a vibrant community of musicians.
-          </p>
+          TechZone is a leading institution committed to educating future tech professionals. We cultivate skills from the foundation, building a dynamic community of innovators and technology enthusiasts.          </p>
         </div>
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Quick Links</h2>
@@ -23,14 +20,7 @@ function Footer() {
                 Home
               </a>
             </li>
-            <li>
-              <a
-                href="/"
-                className="hover:text-white transition-colors duration-300"
-              >
-                About
-              </a>
-            </li>
+           
             <li>
               <a
                 href="/courses"
@@ -74,14 +64,14 @@ function Footer() {
         </div>
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
-          <p>New Delhi, India</p>
-          <p>Delhi 10001</p>
-          <p>Email: info@musicacademy.com</p>
-          <p>Phone: (123) 456-7890</p>
+          <p>Sarsawa, Saharanpur</p>
+          <p>Pincode: 247232</p>
+          <p>Email: itsTechZone@gmail.com</p>
+          <p>Phone: (+91) 7247885692</p>
         </div>
       </div>
       <p className="text-center text-xs pt-8">
-        © 2024 Music Academy. All rights reserved.
+        © 2024 TechZone. All rights reserved.
       </p>
     </footer>
   );

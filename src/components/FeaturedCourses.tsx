@@ -1,9 +1,9 @@
 "use client";
-import courseData from "../data/music_courses.json";
-import { Button } from "./ui/moving-border";
+import courseData from "../data/tech_courses.json";
+// import { Button } from "./ui/moving-border";
 import Link from "next/link";
 import { BackgroundGradient } from "./ui/background-gradient";
-import Image from "next/image";
+// import Image from "next/image";
 
 interface Course {
   id: number;

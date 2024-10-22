@@ -1,61 +1,58 @@
 "use client";
 import React from "react";
+
 import { WavyBackground } from "./ui/wavy-background";
 import { AnimatedTooltip } from "./ui/animated-tooltip";
 
 const instructors = [
   {
     id: 1,
-    name: "Elena Briggs",
-    designation: "Vocal Coach",
-    image:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    name: "Vishal Chaudhary",
+    designation: "MERN Developer",
+    image: "https://images.unsplash.com/photo-1728018784189-367661af8d22?q=80&w=1789&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" ,
+     
   },
   {
     id: 2,
-    name: "Marcus Reid",
-    designation: "Guitar Instructor",
+    name: "Shivam Saini",
+    designation: "DevOps Expert",
     image:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
+      "https://images.unsplash.com/photo-1728017680050-27a7c62c2bf9?q=80&w=1784&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: 3,
-    name: "Julia Zhang",
-    designation: "Piano Teacher",
+    name: "Sahil Patyal",
+    designation: "Python Developer",
     image:
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+      "https://images.unsplash.com/photo-1728017613750-425fa234d466?q=80&w=1983&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: 4,
-    name: "Andre Gomez",
-    designation: "Drumming Expert",
+    name: "Satyam Barnwal",
+    designation: "Angular Expert",
     image:
-      "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+      "https://images.unsplash.com/photo-1727892510478-c98eac8bdb5d?q=80&w=1957&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
-    id: 1,
-    name: "Alice Thompson",
-    designation: "Singing Coach",
-    image: "https://randomuser.me/api/portraits/women/2.jpg",
+    id: 5,
+    name: "Saurabh Lodhi",
+    designation: "C# Instructor",
+    image: "https://images.unsplash.com/photo-1727894138930-97a4a3634d97?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
-    id: 2,
-    name: "John Doe",
-    designation: "Guitar Mentor",
-    image: "https://randomuser.me/api/portraits/men/3.jpg",
+    id: 6,
+    name: "Taranpreet Sidhana",
+    designation: "DSA Expert",
+    image: "https://images.unsplash.com/photo-1727893079634-ffd34cf5ba64?q=80&w=1906&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
+ 
   {
-    id: 3,
-    name: "Mia Wang",
-    designation: "Piano Instructor",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    id: 7,
+    name: "Vishal Barnwal",
+    designation: "Php Developer",
+    image: "https://images.unsplash.com/photo-1728017841704-66610ecc773a?q=80&w=1836&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
-  {
-    id: 4,
-    name: "Carlos Rivera",
-    designation: "Drum Specialist",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
+  
 ];
 
 function Instructors() {
@@ -68,8 +65,7 @@ function Instructors() {
           Meet Our Instructors
         </h2>
         <p className="text-base md:text-lg text-white text-center mb-4">
-          Discover the talented professionals who will guide your musical
-          journey
+        Discover the talented professionals who will guide your journey in mastering technology.
         </p>
         <div className="flex flex-row items-center justify-center mb-10 w-full">
           <AnimatedTooltip items={instructors} />
